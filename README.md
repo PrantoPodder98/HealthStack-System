@@ -1,20 +1,17 @@
 # HealthStack-System
 
-- An online based platform for multiple hospitals. Ability to track, monitor, and share a patient's health records between all hospitals. Patients can also see information regarding multiple hospitals and doctors, as well as take appointments via online. Pay laboratory tests via online as well as chat with appointed doctors.
+- An online platform that caters to multiple hospitals, enabling efficient tracking, monitoring, and sharing of patient health records between themselves. Patients can access information on various hospitals and doctors, book appointments online, purchase medicines from an online pharmacy, pay for laboratory tests via an integrated payment gateway, and even chat with their appointed doctors.
 - Software Engineering Project - B.Sc. in Computer Science and Engineering (CSE)
-- Django Application
 
 ## Contributors
 
 - **Team Members:** [Mohammed Jawwadul Islam](https://www.linkedin.com/in/jawwadfida/), [Mohammad Fahad Al Rafi](https://www.linkedin.com/in/md-fahad-al-al-rafi-14b968111/), [Pranto Podder](https://www.linkedin.com/in/pranto-podder-b78b97162/), [Aysha Siddika](https://www.linkedin.com/in/aysha-siddika-577ba5224/), [Moumy Kabir](https://www.linkedin.com/in/moumy-kabir-156a0a232/), Nafisa Akhter
 - **Project Duration:** August 2022 - September 2022
 
-
 ## Tools used:
-      1) Front-end: HTML, CSS, Boostrap, Javascript
-      2) Back-end: Django (Python web framework)
-      3) Database: SQLite
-      4) Others: Various APIs, PyPI packages, Ajax 
+      1) Programming Language and Libraries: Django (Python web framework), Bootstrap, JavaScript, Ajax, Django REST framework.
+      2) Database: SQLite
+      3) APIs used: MailTrap, SSLCommerz Payment Gateway, , Django PDF library, Django channels for chat, ngrok HTTP, PyPI packages.
 
 ## Features
 
@@ -77,9 +74,26 @@
       
       The credentials that you need to set up are: Mailtrap credentials, SSLCommerz Credentials. 
 
+## Steps to start the app
+      1) Start python virtual env
+            python -m venv venv
+      2) Activate the virtual environment venv
+            source venv/bin/activate
+      3) Install python pip paclages
+            pip install -r requirements
+      4) Create .env from  .env.example and add secret key
+            cp .env.example .env
+      5) Upgrade django framework
+            pip install --upgrade djangorestframework-simplejwt
+      6) Migrate DB 
+            python manage.py migrate
+      7) Start the application
+            python manage.py runserver
+            
 
-# MKDocs Documentation and Youtube Video
+# MKDocs Documentation, Youtube Video and Presentation
 - [Youtube](https://youtu.be/TSR00OKBSCY) video link of MKDocs documentation on our Healthstack project.
+- [HeathStack Software - Presentation](https://github.com/Jawwad-Fida/HealthStack-System/files/13839586/HeathStack.Software.-.Presentation.pdf)
 - Checkout out the [MKdocs documentation](https://jawwad-fida.github.io/HealthStack-System/) to see screenshots of our project.
 
 # Some Screenshots
@@ -140,7 +154,7 @@
 <img src="https://user-images.githubusercontent.com/64092765/191188138-2dd284c8-a815-4060-87f3-61ffd7c2300d.png" width="50%">
 
 
-# [Champion in UIU CSE Project Show Summer 2022 - Software Engineering Laboratory]()
+# [Champion in UIU CSE Project Show Summer 2022 - Software Engineering Laboratory](https://www.facebook.com/100080783675315/posts/pfbid0TuQyeVT9LHJx4zCnCpaDsAGFnCGxSTMKa8Fd1XCNcpf3n1yXf6ceQQTYQ1DeahSZl/)
 
 <img src="https://user-images.githubusercontent.com/64092765/192018455-de998881-ac7e-4082-a8c6-3a36a59aef94.jpg" width="75%">
 
